@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Karthikeyan Releases Nexus Repository</name>
-	      <url>http://18.220.197.110:9980/karthikeyan/repository/Amazon-releases/</url>
+	      <url>http://18.188.97.242:9980/karthikeyan/repository/Amazon-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Karthikeyan Snapshot Nexus Repository </name>
-	      <url>http://18.220.197.110:9980/karthikeyan/repository/Amazon-snapshot/</url>
+	      <url>http://18.188.97.242:9980/karthikeyan/repository/Amazon-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
