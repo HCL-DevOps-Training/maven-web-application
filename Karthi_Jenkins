@@ -23,7 +23,7 @@ configFileProvider([configFile(fileId: '64b3f850-e06b-467c-b9dd-5c0bd3991735', t
 stage('DeployAppintoTomcatServer')
 {
 sshagent(['dfcc85c1-1008-42d3-aa74-925bd95a08a8']) {
-sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@15.206.203.157:/opt/apache-tomcat-9.0.39/webapps/" 
+sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.232.65.177:/opt/apache-tomcat-9.0.39/webapps/" 
 }
 }
 }
